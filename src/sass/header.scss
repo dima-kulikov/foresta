@@ -2,13 +2,18 @@
   position: absolute;
   width: 100%;
   background-image: url(../images/bg-img.jpg);
+  background: linear-gradient(
+    267.06deg,
+    rgba(0, 0, 0, 0) -31.13%,
+    #2a2a2a 120.73%
+  );
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 
   .section-size {
     max-width: 1170px;
-    outline: 1px solid red;
+    // outline: 1px solid red;
     margin: 38px 12%;
 
     @media (max-width: 768px) {
