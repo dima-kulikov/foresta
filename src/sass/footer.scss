@@ -1,0 +1,43 @@
+footer {
+  overflow: hidden;
+  width: 100%;
+  background-image: url(../images/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  .footer-info {
+    display: block;
+    max-width: 570px;
+    margin: 0px auto;
+    .footer__logo {
+      display: block;
+      margin: 0px auto;
+      width: 169px;
+    }
+
+    .footer__text {
+      font-family: Cera Pro;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+
+  .footer-phone {
+    width: 192px;
+    margin: 30px auto;
+  }
+  .footer-icons {
+    width: 274px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    img {
+      width: 30px;
+    }
+  }
+}

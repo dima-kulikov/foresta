@@ -7,11 +7,12 @@
 @import 'header.scss';
 @import 'stylesheet.scss';
 @import 'catalog.scss';
+@import 'footer.scss';
 
 .section-size {
-  max-width: 1170px;
+  //   max-width: 1170px;
   margin: 38px 9%;
-  outline: 1px solid red;
+  //   outline: 1px solid red;
   @media (max-width: 768px) {
     // margin: 38px 12%;
   }
