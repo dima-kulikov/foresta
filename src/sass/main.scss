@@ -10,11 +10,8 @@
 @import 'footer.scss';
 
 .section-size {
-  //   max-width: 1170px;
   margin: 38px 9%;
-  //   outline: 1px solid red;
   @media (max-width: 768px) {
-    // margin: 38px 12%;
   }
   @media (max-width: 400px) {
     margin: 20px 6%;
