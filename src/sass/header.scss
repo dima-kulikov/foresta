@@ -29,7 +29,7 @@
   .header-block__logo-foresta {
     display: inline;
     @media (max-width: 768px) {
-      img {
+      & img {
         width: 77px;
       }
     }
@@ -37,7 +37,7 @@
   .header-block__logo-dnipro {
     float: right;
     @media (max-width: 768px) {
-      img {
+      & img {
         width: 77px;
       }
     }
