@@ -1,36 +1,51 @@
 .header-block {
-  position: absolute;
+  overflow: hidden;
   width: 100%;
   background-image: url(../images/bg-img.jpg);
-  background: linear-gradient(
-    267.06deg,
-    rgba(0, 0, 0, 0) -31.13%,
-    #2a2a2a 120.73%
-  );
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  @media (max-width: 768px) {
+    background-position-x: 58%;
+  }
+
+  @media (max-width: 400px) {
+    // background-position-x: 58%;
+    height: 287px;
+  }
 
   .section-size {
     max-width: 1170px;
-    // outline: 1px solid red;
-    margin: 38px 12%;
-
+    margin: 38px 9%;
+    outline: 1px solid red;
     @media (max-width: 768px) {
-      margin: 38px 12%;
+      // margin: 38px 12%;
+    }
+    @media (max-width: 400px) {
+      margin: 20px 6%;
     }
   }
 
   .header-block__logo-foresta {
     display: inline;
+    @media (max-width: 768px) {
+      img {
+        width: 77px;
+      }
+    }
   }
   .header-block__logo-dnipro {
     float: right;
+    @media (max-width: 768px) {
+      img {
+        width: 77px;
+      }
+    }
   }
 
   .header-block__text {
     display: block;
-    max-width: 494px;
+    max-width: 497px;
     font-family: Cera Pro;
     font-style: normal;
     font-weight: bold;
@@ -38,20 +53,20 @@
     line-height: 60px;
     letter-spacing: 0.07em;
     color: #ffffff;
-    margin-top: 138px;
+    margin-top: 120px;
     margin-bottom: 170px;
+    // outline: 1px solid red;
 
     @media (max-width: 768px) {
-      max-width: 297px;
+      max-width: 380px;
       font-size: 30px;
       line-height: 30px;
-      margin: 100px auto 100px auto;
+      margin: 50px auto 50px auto;
+      text-align: center;
     }
-    @media (max-width: 400px) {
-      max-width: 297px;
+    @media (max-width: 500px) {
       font-size: 24px;
-      line-height: 30px;
-      margin: 100px auto 100px auto;
+      margin: 45px auto 33px auto;
     }
 
     .dnipro-color {
@@ -75,15 +90,18 @@
     text-transform: uppercase;
     color: #ffffff;
     margin-bottom: 163px;
+    cursor: pointer;
     @media (max-width: 768px) {
       margin: 100px auto 0px;
     }
     @media (max-width: 400px) {
       max-width: 150px;
+
       font-size: 40px;
-      //   padding-bottom: 70px;
+      height: 40px;
       font-size: 12px;
       line-height: 24px;
+      margin-top: 0px;
     }
   }
 }
