@@ -69,17 +69,17 @@
     @media (max-width: 660px) {
       width: 150px;
     }
-  }
-}
-img {
-  margin: 0px auto;
-  display: block;
-  width: 255px;
-  @media (max-width: 660px) {
-    width: 150px;
-  }
-}
 
+    img {
+      margin: 0px auto;
+      display: block;
+      width: 255px;
+      @media (max-width: 660px) {
+        width: 150px;
+      }
+    }
+  }
+}
 .catalog__catalog__block__list {
   ul {
     padding: 0px;
