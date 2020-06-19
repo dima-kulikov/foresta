@@ -10,7 +10,8 @@
 @import 'footer.scss';
 
 .section-size {
-  outline: 1px solid red;
+  // max-width: 1200px;
+  // outline: 1px solid red;
   margin: 38px 9%;
   @media (max-width: 768px) {
   }
@@ -18,3 +19,15 @@
     margin: 20px 6%;
   }
 }
+
+// .section-size {
+//   outline: 1px solid red;
+//   margin: 38px auto;
+//   // padding: 0 15px;
+//   max-width: 1200px;
+//   @media (max-width: 768px) {
+//   }
+//   @media (max-width: 400px) {
+//     margin: 20px 6%;
+//   }
+// }

@@ -47,17 +47,30 @@
   .catalog__block-over {
     overflow: hidden;
     height: 300px;
-    //   outline: 1px solid red;
     margin: 15px 0px;
     &:hover {
       overflow: visible;
       z-index: 2;
+      @media (max-width: 660px) {
+        overflow: hidden;
+      }
     }
     @media (max-width: 660px) {
       height: 168px;
     }
   }
-
+  .activ {
+    display: none;
+    @media (max-width: 660px) {
+      display: block;
+    }
+  }
+  .not-active {
+    // display: block;
+    @media (max-width: 660px) {
+      display: none;
+    }
+  }
   .catalog__block {
     width: 270px;
     background: #ffffff;
@@ -113,4 +126,10 @@
     text-decoration: none;
   }
   //   }
+}
+.bbb {
+  display: none;
+  @media (max-width: 660px) {
+    display: block;
+  }
 }
