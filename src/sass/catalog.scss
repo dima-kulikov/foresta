@@ -14,9 +14,14 @@
     flex-wrap: wrap;
     margin: auto;
     max-width: 1320px;
-    @media (max-width: 1124px) {
-      justify-content: space-around;
+    @media (max-width: 1130px) {
+      // justify-content: space-around;
       max-width: 900px;
+      justify-content: flex-start;
+      outline: 1px solid #30d621;
+    }
+    @media (max-width: 870px) {
+      // width: ;
     }
   }
 
@@ -45,18 +50,26 @@
     }
   }
   .catalog__block-over {
+    outline: 1px solid red;
     overflow: hidden;
     height: 300px;
     margin: 15px 0px;
+    width: 25%;
     &:hover {
       overflow: visible;
       z-index: 2;
-      @media (max-width: 660px) {
-        overflow: hidden;
-      }
+    }
+    @media (max-width: 1130px) {
+      width: 33.333%;
+      min-width: 230px;
+    }
+    @media (max-width: 860px) {
+      width: 50%;
     }
     @media (max-width: 660px) {
+      overflow: hidden;
       height: 168px;
+      min-width: 100px;
     }
   }
   .activ {
@@ -72,15 +85,17 @@
     }
   }
   .catalog__block {
-    width: 270px;
+    // width: 25%;
     background: #ffffff;
     &:hover {
       background: #ffffff;
       box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
       border-radius: 3px;
+      width: 100%;
     }
+
     @media (max-width: 660px) {
-      width: 150px;
+      // width: 150px;
     }
 
     img {
