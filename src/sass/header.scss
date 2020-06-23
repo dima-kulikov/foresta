@@ -91,6 +91,11 @@
     color: #ffffff;
     margin-bottom: 163px;
     cursor: pointer;
+    &:hover {
+      background-color: #ffffff;
+      color: black;
+      border: 1px solid black;
+    }
     @media (max-width: 768px) {
       margin: 100px auto 0px;
     }
