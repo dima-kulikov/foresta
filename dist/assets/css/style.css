@@ -1,9 +1,11 @@
+@charset "UTF-8";
+
 @font-face {
     font-family: "Cera Pro";
-    src: url("../fonts/CeraPro-Italic.eot");
-    src: local("Cera Pro Italic"), local("CeraPro-Italic"), url("../fonts/../fonts/CeraPro-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/CeraPro-Italic.woff") format("woff"), url("../fonts/CeraPro-Italic.ttf") format("truetype");
-    font-weight: normal;
-    font-style: italic;
+  src: url("../fonts/CeraPro-Italic.eot");
+  src: local("Cera Pro Italic"), local("CeraPro-Italic"), url("../fonts/../fonts/CeraPro-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/CeraPro-Italic.woff") format("woff"), url("../fonts/CeraPro-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
 }
 
 @font-face {
@@ -264,6 +266,10 @@ h1 {
     .catalog .catalog__block img {
         width: 150px;
     }
+}
+
+.catalog .catalog__block a {
+    text-decoration: none;
 }
 
 .catalog__catalog__block__list ul {
@@ -539,4 +545,11 @@ footer .footer-icons a:hover {
         line-height: 24px;
         margin-top: 0px;
     }
+}
+
+a {
+    pointer-events: none;
+ /* делаем элемент неактивным для взаимодействия */
+    cursor: pointer;
+ /*  курсор в виде стрелки */
 }

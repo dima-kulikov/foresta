@@ -277,9 +277,7 @@ body {
         width: 100%;
       }
   
-      @media (max-width: 660px) {
-        // width: 150px;
-      }
+
   
       img {
         margin: 0px auto;
@@ -289,6 +287,9 @@ body {
           width: 150px;
         }
       }
+    }
+    .catalog__block a {
+      text-decoration: none;
     }
   }
   .catalog__catalog__block__list {
@@ -546,4 +547,8 @@ footer {
       }
     }
   }
-  
+  a {
+    pointer-events: none; /* делаем элемент неактивным для взаимодействия */
+    cursor: pointer; /*  курсор в виде стрелки */
+
+    }
