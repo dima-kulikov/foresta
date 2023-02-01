@@ -1,0 +1,542 @@
+@font-face {
+    font-family: "Cera Pro";
+    src: url("../fonts/CeraPro-Italic.eot");
+    src: local("Cera Pro Italic"), local("CeraPro-Italic"), url("../fonts/../fonts/CeraPro-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/CeraPro-Italic.woff") format("woff"), url("../fonts/CeraPro-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Cera Pro";
+  src: url("../fonts/CeraPro-Regular.eot");
+  src: local("Cera Pro Regular"), local("CeraPro-Regular"), url("../fonts/CeraPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/CeraPro-Regular.woff") format("woff"), url("../fonts/CeraPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: "Cera Pro";
+  src: url("../fonts/CeraPro-BlackItalic.eot");
+  src: local("Cera Pro Black Italic"), local("CeraPro-BlackItalic"), url("../fonts/CeraPro-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/CeraPro-BlackItalic.woff") format("woff"), url("../fonts/CeraPro-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+    font-family: "Cera Pro";
+  src: url("../fonts/CeraPro-Light.eot");
+  src: local("Cera Pro Light"), local("CeraPro-Light"), url("../fonts/CeraPro-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/CeraPro-Light.woff") format("woff"), url("../fonts/CeraPro-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: "Cera Pro";
+  src: url("../fonts/CeraPro-BoldItalic.eot");
+  src: local("Cera Pro Bold Italic"), local("CeraPro-BoldItalic"), url("../fonts/CeraPro-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/CeraPro-BoldItalic.woff") format("woff"), url("../fonts/CeraPro-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+    font-family: "Cera Pro";
+  src: url("../fonts/CeraPro-Black.eot");
+  src: local("Cera Pro Black"), local("CeraPro-Black"), url("../fonts/CeraPro-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/CeraPro-Black.woff") format("woff"), url("../fonts/CeraPro-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: "Cera Pro";
+  src: url("../fonts/CeraPro-Medium.eot");
+  src: local("Cera Pro Medium"), local("CeraPro-Medium"), url("../fonts/CeraPro-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/CeraPro-Medium.woff") format("woff"), url("../fonts/CeraPro-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: "Cera Pro";
+  src: url("../fonts/CeraPro-Bold.eot");
+  src: local("Cera Pro Bold"), local("CeraPro-Bold"), url("../fonts/CeraPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/CeraPro-Bold.woff") format("woff"), url("../fonts/CeraPro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: "Cera Pro";
+  src: url("../fonts/CeraPro-Thin.eot");
+  src: local("Cera Pro Thin"), local("CeraPro-Thin"), url("../fonts/CeraPro-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/CeraPro-Thin.woff") format("woff"), url("../fonts/CeraPro-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: "Cera Pro";
+  src: url("../fonts/CeraPro-MediumItalic.eot");
+  src: local("Cera Pro Medium Italic"), local("CeraPro-MediumItalic"), url("../fonts/CeraPro-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/CeraPro-MediumItalic.woff") format("woff"), url("../fonts/CeraPro-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+    font-family: "Cera Pro";
+  src: url("../fonts/CeraPro-LightItalic.eot");
+  src: local("Cera Pro Light Italic"), local("CeraPro-LightItalic"), url("../fonts/CeraPro-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/CeraPro-LightItalic.woff") format("woff"), url("../fonts/CeraPro-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+    font-family: "Cera Pro";
+  src: url("../fonts/CeraPro-ThinItalic.eot");
+  src: local("Cera Pro Thin Italic"), local("CeraPro-ThinItalic"), url("../fonts/CeraPro-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/CeraPro-ThinItalic.woff") format("woff"), url("../fonts/CeraPro-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+html {
+    line-height: 1.15;
+ /* 1 */
+    -webkit-text-size-adjust: 100%;
+ /* 2 */
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+.section-size {
+    max-width: 1180px;
+    margin: 38px auto;
+    padding: 0px 15px;
+}
+
+@media (max-width: 1124px) {
+    .section-size {
+        padding: 0px;
+        margin: 20px 6%;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-size {
+        padding: 0px;
+        margin: 20px 6%;
+    }
+}
+
+@media (max-width: 400px) {
+    .section-size {
+        margin: 20px 6%;
+    }
+}
+
+.catalog .flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1320px;
+}
+
+@media (max-width: 1130px) {
+    .catalog .flex {
+        max-width: 900px;
+        justify-content: flex-start;
+    }
+}
+
+.catalog .catalog__h2 {
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #333333;
+}
+
+.catalog .catalog__h3 {
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+@media (max-width: 660px) {
+    .catalog .catalog__h3 {
+        margin: 0px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+.catalog .catalog__block-over {
+    overflow: hidden;
+    height: 300px;
+    margin: 15px 0px;
+    width: 25%;
+}
+
+.catalog .catalog__block-over:hover {
+    overflow: visible;
+    z-index: 2;
+}
+
+@media (max-width: 1130px) {
+    .catalog .catalog__block-over {
+        width: 33.333%;
+        min-width: 230px;
+    }
+}
+
+@media (max-width: 860px) {
+    .catalog .catalog__block-over {
+        width: 50%;
+    }
+}
+
+@media (max-width: 660px) {
+    .catalog .catalog__block-over {
+        overflow: hidden;
+        height: 168px;
+        min-width: 100px;
+    }
+}
+
+.catalog .activ {
+    display: none;
+}
+
+@media (max-width: 660px) {
+    .catalog .activ {
+        display: block;
+    }
+}
+
+@media (max-width: 660px) {
+    .catalog .not-active {
+        display: none;
+    }
+}
+
+.catalog .catalog__block {
+    background: #ffffff;
+}
+
+.catalog .catalog__block:hover {
+    background: #ffffff;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    width: 100%;
+}
+
+.catalog .catalog__block img {
+    margin: 0px auto;
+    display: block;
+    width: 255px;
+}
+
+@media (max-width: 660px) {
+    .catalog .catalog__block img {
+        width: 150px;
+    }
+}
+
+.catalog__catalog__block__list ul {
+    padding: 0px;
+}
+
+.catalog__catalog__block__list li {
+    list-style: none;
+    text-align: center;
+}
+
+.catalog__catalog__block__list a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #909090;
+}
+
+.catalog__catalog__block__category {
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    text-decoration-line: underline;
+    padding-bottom: 5px;
+}
+
+.catalog__catalog__block__category a {
+    color: #333333;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.bbb {
+    display: none;
+}
+
+@media (max-width: 660px) {
+    .bbb {
+        display: block;
+    }
+}
+
+footer {
+    overflow: hidden;
+    width: 100%;
+    background: #231f20;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+footer .footer-info {
+    display: block;
+    max-width: 570px;
+    margin: 0px auto;
+}
+
+footer .footer-info .footer__logo {
+    display: block;
+    margin: 0px auto;
+    width: 169px;
+}
+
+footer .footer-info .footer__text {
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer .footer-phone {
+    display: block;
+    width: 192px;
+    margin: 30px auto;
+}
+
+footer .footer-icons {
+    width: 274px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+footer .footer-icons .footer-icons__1 {
+    animation: footer-icons__1 1.5s infinite alternate;
+}
+
+footer .footer-icons .footer-icons__2 {
+    animation: footer-icons__2 1.5s infinite alternate;
+}
+
+footer .footer-icons .footer-icons__3 {
+    animation: footer-icons__3 1.5s infinite alternate;
+}
+
+footer .footer-icons .footer-icons__4 {
+    animation: footer-icons__4 1.5s infinite alternate;
+}
+
+footer .footer-icons .footer-icons__5 {
+    animation: footer-icons__5 1.5s infinite alternate;
+}
+
+footer .footer-icons img {
+    width: 30px;
+}
+
+footer .footer-icons a {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    transition: 0.3s all ease;
+    transform: scale(1);
+}
+
+footer .footer-icons a:hover {
+    transform: scale(1.03);
+}
+
+@keyframes footer-icons__1 {
+    100% {
+        box-shadow: 0px 0px 20px 0px rgb(87, 126, 236);
+    }
+}
+
+@keyframes footer-icons__2 {
+    100% {
+        box-shadow: 0px 0px 20px 0px rgb(255, 36, 36);
+    }
+}
+
+@keyframes footer-icons__3 {
+    100% {
+        box-shadow: 0px 0px 20px 0px rgb(173, 80, 166);
+    }
+}
+
+@keyframes footer-icons__4 {
+    100% {
+        box-shadow: 0px 0px 20px 0px rgb(78, 195, 250);
+    }
+}
+
+@keyframes footer-icons__5 {
+    100% {
+        box-shadow: 0px 0px 20px 0px rgb(127, 87, 236);
+    }
+}
+
+.header-block {
+    overflow: hidden;
+    width: 100%;
+    background-image: url(../images/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 768px) {
+    .header-block {
+        background-position-x: 58%;
+    }
+}
+
+@media (max-width: 400px) {
+    .header-block {
+        background-position-x: 58%;
+        height: 287px;
+    }
+}
+
+.header-block .header-block__logo-foresta {
+    display: inline;
+}
+
+@media (max-width: 768px) {
+    .header-block .header-block__logo-foresta img {
+        width: 77px;
+    }
+}
+
+.header-block .header-block__logo-dnipro {
+    float: right;
+}
+
+@media (max-width: 768px) {
+    .header-block .header-block__logo-dnipro img {
+        width: 77px;
+    }
+}
+
+.header-block .header-block__text {
+    display: block;
+    max-width: 497px;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.07em;
+    color: #ffffff;
+    margin-top: 120px;
+    margin-bottom: 170px;
+}
+
+@media (max-width: 768px) {
+    .header-block .header-block__text {
+        max-width: 380px;
+        font-size: 30px;
+        line-height: 30px;
+        margin: 50px auto 50px auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .header-block .header-block__text {
+        font-size: 24px;
+        margin: 45px auto 33px auto;
+    }
+}
+
+.header-block .header-block__text .dnipro-color {
+    color: red;
+}
+
+.header-block .header-block__btn {
+    display: block;
+    width: 230px;
+    height: 56px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background: transparent;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 163px;
+    cursor: pointer;
+}
+
+.header-block .header-block__btn:hover {
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid black;
+}
+
+@media (max-width: 768px) {
+    .header-block .header-block__btn {
+        margin: 100px auto 0px;
+    }
+}
+
+@media (max-width: 400px) {
+    .header-block .header-block__btn {
+        max-width: 150px;
+        font-size: 40px;
+        height: 40px;
+        font-size: 12px;
+        line-height: 24px;
+        margin-top: 0px;
+    }
+}
